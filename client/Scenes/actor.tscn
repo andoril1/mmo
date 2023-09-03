@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://dyjfhm2m3sm22"]
+
+[ext_resource type="Script" path="res://Scripts/actor.gd" id="1_iffc6"]
+[ext_resource type="PackedScene" uid="uid://cq243yvmyw56q" path="res://Scenes/avatar.tscn" id="2_npgu3"]
+
+[node name="Actor" type="Node2D"]
+script = ExtResource("1_iffc6")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="Label" type="Label" parent="CharacterBody2D"]
+offset_left = -19.0
+offset_top = 37.0
+offset_right = 21.0
+offset_bottom = 60.0
+horizontal_alignment = 1
+
+[node name="avatar" parent="CharacterBody2D" instance=ExtResource("2_npgu3")]

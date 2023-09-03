@@ -1,0 +1,11 @@
+res://default_env.tres
+res://Scenes/chatbox.tscn
+res://Scenes/Main.tscn
+res://Scenes/login.tscn
+res://Scenes/actor.tscn
+res://Scripts/actor.gd
+res://Scenes/avatar.tscn
+res://Scripts/login.gd
+res://Scripts/Main.gd
+res://Scripts/chatbox.gd
+res://Scripts/websockets_client.gd

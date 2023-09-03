@@ -1,0 +1,15 @@
+TileMap
+Button
+HBoxContainer
+Label
+VBoxContainer
+Control
+Panel
+AnimationPlayer
+Sprite2D
+CharacterBody2D
+LineEdit
+CenterContainer
+GridContainer
+CanvasLayer
+RichTextLabel
